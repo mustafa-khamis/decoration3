@@ -6,7 +6,7 @@ import { useScrollReveal } from './hooks/useScrollReveal'
 // EDIT ONLY THIS SECTION FOR EACH NEW BUSINESS
 // ==================================================
 
-const BUSINESS_NAME = 'Kigali Modern Furniture Ltd'
+const BUSINESS_NAME = 'Travis Furniture and Interior Design'
 
 const BUSINESS = {
   name: BUSINESS_NAME,
@@ -30,18 +30,28 @@ const BUSINESS = {
 const LOCAL_GALLERY_IMAGES = [
   {
     src: '/1.webp',
-    alt: `${BUSINESS_NAME} exterior construction and finishing project in Kigali`,
-    category: 'Construction',
+    alt: `${BUSINESS_NAME} furniture and interior project in Kigali`,
+    category: 'Projects',
   },
   {
-    src: 'https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=1400&q=82',
-    alt: 'Modern fitted kitchen with refined cabinetry and stone surfaces',
-    category: 'Kitchens',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=82',
-    alt: 'Elegant custom furniture in a warm contemporary dining space',
+    src: '/2.webp',
+    alt: `${BUSINESS_NAME} custom furniture and interior finishing work`,
     category: 'Furniture',
+  },
+  {
+    src: '/3.webp',
+    alt: `${BUSINESS_NAME} interior design and fitted space project`,
+    category: 'Interiors',
+  },
+  {
+    src: '/4.webp',
+    alt: `${BUSINESS_NAME} modern cabinetry and room finishing detail`,
+    category: 'Cabinetry',
+  },
+  {
+    src: '/5.webp',
+    alt: `${BUSINESS_NAME} residential interior and furniture installation`,
+    category: 'Installation',
   },
 ]
 
@@ -281,11 +291,11 @@ function App() {
             {BUSINESS_NAME}
           </div>
           <div className="hero-content">
-            <p className="eyebrow">Interior Design • Construction • Custom Finishes</p>
-            <h1>Transform your property into a refined space built with intention.</h1>
+            <p className="eyebrow">Custom Furniture • Interior Design • Kitchens</p>
+            <h1>Furniture and interiors shaped around the way you live.</h1>
             <p>
-              Premium interiors, construction finishing, fitted kitchens, cabinetry, and custom
-              furniture for homes and businesses across Kigali.
+              Tailored furniture, fitted kitchens, thoughtful interiors, and careful installation
+              for homes and businesses across Kigali.
             </p>
             <div className="hero-actions">
               <a className="button primary" href={consultationUrl} target="_blank" rel="noreferrer">
@@ -297,8 +307,8 @@ function App() {
             </div>
           </div>
           <aside className="hero-signature" aria-label="Project strengths">
-            <span>Design planning</span>
-            <span>Site execution</span>
+            <span>Made-to-measure furniture</span>
+            <span>Fitted kitchen planning</span>
             <span>Interior finishing</span>
           </aside>
           <a className="scroll-indicator" href="#about" aria-label="Scroll to about section">

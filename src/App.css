@@ -166,7 +166,7 @@
 .hero-content h1 {
   max-width: 940px;
   color: var(--color-ivory);
-  font-size: clamp(3.25rem, 7.7vw, 8.4rem);
+  font-size: clamp(2.85rem, 6.6vw, 7.2rem);
   text-shadow: 0 16px 42px rgba(0, 0, 0, 0.34);
 }
 
@@ -854,7 +854,7 @@ footer a:not(.button) {
 
 @media (max-width: 420px) {
   .hero-content h1 {
-    font-size: 2.82rem;
+    font-size: 2.45rem;
   }
 
   .section {

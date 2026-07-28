@@ -6,7 +6,7 @@ import { useScrollReveal } from './hooks/useScrollReveal'
 // EDIT ONLY THIS SECTION FOR EACH NEW BUSINESS
 // ==================================================
 
-const BUSINESS_NAME = 'Chris Interior and Construction Designer'
+const BUSINESS_NAME = 'Kigali Modern Furniture Ltd'
 
 const BUSINESS = {
   name: BUSINESS_NAME,
@@ -29,19 +29,19 @@ const BUSINESS = {
 
 const LOCAL_GALLERY_IMAGES = [
   {
-    src: '/3.webp',
-    alt: `${BUSINESS_NAME} completed interior construction space in Kigali`,
-    category: 'Construction',
-  },
-  {
     src: '/1.webp',
     alt: `${BUSINESS_NAME} exterior construction and finishing project in Kigali`,
     category: 'Construction',
   },
   {
-    src: '/2.webp',
-    alt: `${BUSINESS_NAME} site supervision and construction detailing in Kigali`,
-    category: 'Execution',
+    src: 'https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=1400&q=82',
+    alt: 'Modern fitted kitchen with refined cabinetry and stone surfaces',
+    category: 'Kitchens',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=82',
+    alt: 'Elegant custom furniture in a warm contemporary dining space',
+    category: 'Furniture',
   },
 ]
 
